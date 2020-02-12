@@ -1579,3 +1579,12 @@ div#maintoolbar {
 #header-container {
 	display: none !important;
 }
+
+/* vim plugin styles */
+.edit_mode .cell.selected .CodeMirror-focused.cm-fat-cursor {
+  background-color: $nord0 !important;
+}
+
+.edit_mode .cell.selected .CodeMirror-focused:not(.cm-fat-cursor) {
+  background-color: $nord1 !important;
+}
